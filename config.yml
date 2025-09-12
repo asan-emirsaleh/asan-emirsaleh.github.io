@@ -1,5 +1,5 @@
-baseURL: "https://pascalmichaillat.org/hugo-website/" 
-title: Moritz-Maria von Igelfeld
+baseURL: "https:/asan-emirsaleh.github.io" 
+title: Asan Emirsale personal page
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -21,16 +21,16 @@ menu:
         - name: Courses
           url: courses/
           weight: 3
-        - name: Data
-          url: data/
+        - name: Projects
+          url: projects/
           weight: 4 
         - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+          url: 
           weight: 6
 
 params:
-    description: "This website hosts Moritz-Maria von Igelfeld's research papers, books, course materials, data, curriculum vitae, and contact information."
-    author: Moritz-Maria von Igelfeld
+    description: "This website hosts Asan Emirsale's research papers, thoughts, course materials, data, curriculum vitae, and contact information."
+    author: Asan Emirsale
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
@@ -44,7 +44,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["books","courses","papers","data"]
+    MainSections: ["chapters","courses","papers","projects"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -54,8 +54,8 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Professor Dr von Igelfeld
-          subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
+          title: Asan Emirsale
+          subtitle: "I am a researcher in Institute of Cytology and Genetics, RAS, scoped at Bioinformatics and plant Genomics."
           imageUrl: "picture.jpeg"
           imageWidth: 160
           imageHeight: 160
@@ -73,7 +73,7 @@ params:
             - name: Archive
               url: archive/
             - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+              url: 
 
     socialIcons:
         - name: CV
@@ -105,7 +105,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
+      text: "Asan Emirsale"
       icon: favicon.ico
       iconHeight: 18
 
