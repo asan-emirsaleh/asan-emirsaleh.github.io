@@ -1,3 +1,8 @@
+---
+title: "Substrate Signatures 2025"
+type: "reveal-hugo"
+---
+
 <section data-markdown>
   <textarea data-template>
     ## Slide 1
