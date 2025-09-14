@@ -56,7 +56,7 @@ params:
           enabled: true
           title: Asan Emirsale
           subtitle: "I am a researcher in Institute of Cytology and Genetics, SB RAS, scoped at Bioinformatics and plant Genomics."
-          imageUrl: "picture.jpeg"
+          imageUrl: "portrait.jpg"
           imageWidth: 160
           imageHeight: 160
           buttons:
