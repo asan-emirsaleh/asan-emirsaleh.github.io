@@ -109,10 +109,6 @@ params:
       icon: favicon.ico
       iconHeight: 18
 
-module:
-  imports:
-  - path: reveal-hugo
-
 markup:
     goldmark:
         renderer:
@@ -124,3 +120,7 @@ markup:
         endLevel: 2
         ordered: false
         startLevel: 2
+
+module:
+  imports:
+  - path: reveal-hugo
