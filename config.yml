@@ -111,7 +111,7 @@ params:
 
 module:
   imports:
-  - path: themes/reveal-hugo
+  - path: reveal-hugo
 
 markup:
     goldmark:
