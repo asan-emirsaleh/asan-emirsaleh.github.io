@@ -111,7 +111,7 @@ params:
 
 module:
   imports:
-  - path: https://github.com/joshed-io/reveal-hugo
+  - path: themes/reveal-hugo
 
 markup:
     goldmark:
