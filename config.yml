@@ -109,6 +109,10 @@ params:
       icon: favicon.ico
       iconHeight: 18
 
+module:
+  imports:
+  - path: https://github.com/joshed-io/reveal-hugo
+
 markup:
     goldmark:
         renderer:
