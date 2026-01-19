@@ -56,7 +56,7 @@ params:
           enabled: true
           title: Asan Emirsale
           subtitle: "I am a researcher in Institute of Cytology and Genetics, SB RAS, scoped at Bioinformatics and plant Genomics."
-          imageUrl: "portrait.jpg"
+          imageUrl: "assets/img/portrait.jpg"
           imageWidth: 160
           imageHeight: 160
           buttons:
@@ -76,28 +76,28 @@ params:
               url: 
 
     socialIcons:
-        - name: CV
-          url: cv.pdf
+#        - name: CV
+#          url: cv.pdf
         - name: Email
-          url: mailto:igelfeld@regensburg.edu
-        - name: Zoom
-          url: https://www.zoom.us/my/igelfeld
+          url: mailto:asantaraqtasli@gmail.com
+#        - name: Zoom
+#          url: https://www.zoom.us/my/igelfeld
         - name: Location
-          url: location/
+          url: location/Russian Federation/Novosibirsk
         - name: Office Hours
-          url: officehours/
+          url: 09:00 - 20:00
         - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
+          url: https://scholar.google.com/citations?user=AN93hugAAAAJ
         - name: GitHub
-          url: https://github.com/pmichaillat
-        - name: Substack
-          url: https://pmichaillat.substack.com
-        - name: YouTube
-          url: https://www.youtube.com/@pmichaillat
-        - name: Twitter
-          url: https://x.com/pmichaillat
-        - name: Bluesky
-          url: https://bsky.app/profile/pmichaillat.bsky.social
+          url: https://github.com/asan-emirsaleh
+#        - name: Substack
+#          url: https://pmichaillat.substack.com
+#        - name: YouTube
+#          url: https://www.youtube.com/@pmichaillat
+#        - name: Twitter
+#          url: https://x.com/pmichaillat
+#        - name: Bluesky
+#          url: https://bsky.app/profile/pmichaillat.bsky.social
 
     assets:
         disableScrollBarStyle: true
@@ -121,7 +121,7 @@ markup:
         ordered: false
         startLevel: 2
 
-module:
-  imports:
-  - path: reveal-hugo
+#module:
+#  imports:
+#  - path: reveal-hugo
 
