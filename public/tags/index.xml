@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Asan Emirsale personal page</title>
-    <link>//localhost:1313/asan-emirsaleh.github.io/tags/</link>
+    <link>//localhost:35721/asan-emirsaleh.github.io/tags/</link>
     <description>Recent content in Tags on Asan Emirsale personal page</description>
     <generator>Hugo -- 0.156.0</generator>
     <language>en</language>
     <lastBuildDate>Sun, 18 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/asan-emirsaleh.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:35721/asan-emirsaleh.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Audio</title>
-      <link>//localhost:1313/asan-emirsaleh.github.io/tags/audio/</link>
+      <link>//localhost:35721/asan-emirsaleh.github.io/tags/audio/</link>
       <pubDate>Sun, 18 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/asan-emirsaleh.github.io/tags/audio/</guid>
+      <guid>//localhost:35721/asan-emirsaleh.github.io/tags/audio/</guid>
       <description></description>
     </item>
     <item>
       <title>Dataset</title>
-      <link>//localhost:1313/asan-emirsaleh.github.io/tags/dataset/</link>
+      <link>//localhost:35721/asan-emirsaleh.github.io/tags/dataset/</link>
       <pubDate>Sun, 18 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/asan-emirsaleh.github.io/tags/dataset/</guid>
+      <guid>//localhost:35721/asan-emirsaleh.github.io/tags/dataset/</guid>
       <description></description>
     </item>
     <item>
       <title>Linguistics</title>
-      <link>//localhost:1313/asan-emirsaleh.github.io/tags/linguistics/</link>
+      <link>//localhost:35721/asan-emirsaleh.github.io/tags/linguistics/</link>
       <pubDate>Sun, 18 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/asan-emirsaleh.github.io/tags/linguistics/</guid>
+      <guid>//localhost:35721/asan-emirsaleh.github.io/tags/linguistics/</guid>
       <description></description>
     </item>
     <item>
       <title>Phonetics</title>
-      <link>//localhost:1313/asan-emirsaleh.github.io/tags/phonetics/</link>
+      <link>//localhost:35721/asan-emirsaleh.github.io/tags/phonetics/</link>
       <pubDate>Sun, 18 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/asan-emirsaleh.github.io/tags/phonetics/</guid>
+      <guid>//localhost:35721/asan-emirsaleh.github.io/tags/phonetics/</guid>
       <description></description>
     </item>
     <item>
       <title>Phonology</title>
-      <link>//localhost:1313/asan-emirsaleh.github.io/tags/phonology/</link>
+      <link>//localhost:35721/asan-emirsaleh.github.io/tags/phonology/</link>
       <pubDate>Sun, 18 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/asan-emirsaleh.github.io/tags/phonology/</guid>
+      <guid>//localhost:35721/asan-emirsaleh.github.io/tags/phonology/</guid>
       <description></description>
     </item>
     <item>
       <title>Substrat Signatures</title>
-      <link>//localhost:1313/asan-emirsaleh.github.io/tags/substrat-signatures/</link>
+      <link>//localhost:35721/asan-emirsaleh.github.io/tags/substrat-signatures/</link>
       <pubDate>Sun, 18 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/asan-emirsaleh.github.io/tags/substrat-signatures/</guid>
+      <guid>//localhost:35721/asan-emirsaleh.github.io/tags/substrat-signatures/</guid>
       <description></description>
     </item>
   </channel>
