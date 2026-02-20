@@ -27,7 +27,9 @@ menu:
         - name: Blog
           url: 
           weight: 6
-
+        - name: Data
+          url: data/
+          weight: 3
 params:
     description: "This website hosts Asan Emirsale's research papers, thoughts, course materials, data, curriculum vitae, and contact information."
     author: Asan Emirsale
@@ -56,7 +58,7 @@ params:
           enabled: true
           title: Asan Emirsale
           subtitle: "I am a researcher in Institute of Cytology and Genetics, SB RAS, scoped at Bioinformatics and plant Genomics."
-          imageUrl: "assets/img/portrait.jpg"
+          imageUrl: "portrait.jpg"
           imageWidth: 160
           imageHeight: 160
           buttons:
