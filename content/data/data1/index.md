@@ -29,7 +29,7 @@ This dataset contains a curated collection list of short audio recordings illust
 | tʰatɫɯ sʰuhʷ | Taraqtaş[^2] | <audio controls src="audio/th_taraqtas_thatli_suv.mp3"></audio> | tatlı suw |
 | pʰek | Taraqtaş[^2] | <audio controls src="audio/ph_taraqtas_phek.mp3"></audio> | pek |
 | sʰoŋ | Xutlax[^3] | recording | soñ |
-| bu dɐ tʰa:tɶɹ œʁla:nə | Qoz[^4] | <audio controls src="audio/ae_ao_tatar_qoz.mp3"></audio> | bu da tatar oğlanı |
+| bu dɐ tʰaːtɶɹ œʁlaːnə | Qoz[^4] | <audio controls src="audio/ae_ao_tatar_qoz.mp3"></audio> | bu da tatar oğlanı |
 | tʰɛr tɛmɪz ɛdɪ | Taraqtaş[^5] | <audio controls src="audio/th_taraqtas_mamutov.mp3"></audio> | ter-temiz edi |
 | qʰatʰ qʰatʰ oɫuɹdu | Taraqtaş[^2] | <audio controls src="audio/qh_taraqtas_qhath-qhat_olurdu.mp3"></audio> | qat-qat olurdu |
 | qʰumdan | Taraqtaş[^2] | <audio controls src="audio/qh_taraqtas_qhumdan.mp3"></audio> | qumdan |
@@ -49,7 +49,7 @@ Several palatalized ejectives are attested in the local language of Sudaq region
 | kxʲ'im gœɹsʰɛ | Taraqtaş[^2] | <audio controls src="audio/kj_taraqtas_kjim_gorse.mp3"></audio> | kim görse |
 | kʲ'ɛtɕʰi | Taraqtaş[^2] | <audio controls src="audio/kj_taraqtas_kjeci.mp3"></audio> | keçi |
 | kʲ'im o | Taraqtaş[^4] | <audio controls src="audio/kij_taraqtas_kIim_o.mp3"></audio> | kim o |
-| gʲ'ɛlɪn o:trɯj | Taraqtaş[^2] | <audio controls src="audio/gIj_taraqtas_gjelin_otriy.mp3"></audio> | gelin oturıy |
+| gʲ'ɛlɪn oːtrɯj | Taraqtaş[^2] | <audio controls src="audio/gIj_taraqtas_gjelin_otriy.mp3"></audio> | gelin oturıy |
 
 #### Ejective consonants
 I wide range of ejective consonants were documented, for example: **p'**, **t'**, **k'**, **q'**, **tɬʼ**, **kʰ'**.
@@ -57,7 +57,7 @@ I wide range of ejective consonants were documented, for example: **p'**, **t'**
 | transcription | source | recording | orthographic form |
 | :------------ | ------ | --------- | ----------------- |
 | kʲitɬʼɛɹ | Taraqtaş[^7] | <audio controls src="audio/LI_taraqtas.mp3"></audio> | kittiler |
-| p'oɹs k'ɐja:əŋ dʲibɪnnen | Qoz[^4] | <audio controls src="audio/p1_qoz.mp3"></audio> | Pors Qayanıñ dibinden |
+| p'oɹs k'ɐjaːəŋ dʲibɪnnen | Qoz[^4] | <audio controls src="audio/p1_qoz.mp3"></audio> | Pors Qayanıñ dibinden |
 | q'aʧ jɯɫ | Taraqtaş[^5] | <audio controls src="audio/qIh_taraqtas_mamutov.mp3"></audio> | qaç yıl |
 | kʰ'adʲɛmɪ | Xapsxor[^8] | <audio controls src="audio/kh_xapsxor.mp3"></audio> | kademi |
 | 
@@ -74,6 +74,40 @@ I wide range of ejective consonants were documented, for example: **p'**, **t'**
 | dɐndəɹʊkʷʰə | Taraqtaş | <audio controls src="audio/w_taraqtas_dandurukho.mp3"></audio> | dandürük |
 | tʷoxʷtaj | Taraqtaş | <audio controls src="audio/w_toxwtay.mp3"></audio> | toqtay |
 | mutʷɫɐxʷʰ | Taraqtaş | <audio controls src="audio/w_mutwlaqw.mp3"></audio> | mutlaq |
+
+
+### Retroflex consonants
+In local language that is spoken in Sudaq, noisy and retroflex allophones of the \[ʃ\] are common. These also might be represented as aspirated, labialized or compound aspirated-labialized forms. It is very natural for the \[ʂ\] to tend to \[f\]. The retroflex affricate \[ꭧ\] is rare in Sudaq dialectic labguage nowdays, but still present in regular or palatized forms.
+
+| transcription | source | recording | orthographic form |
+| :------------ | ------ | --------- | ----------------- |
+| bu aʂandɯ | Taraqtaş | <audio controls src="audio/ssh_taraqtas_mamutov.mp3"></audio> | bu aşandı |
+| ɐjax mɐʂnɐda gœɹɪy | Taraqtaş | <audio controls src="audio/ssh_taraqtas_02.mp3"></audio> | ayaq maşnada göriy |
+| oꭧenʲ | Taraqtaş | <audio controls src=""></audio> | очень (in Russian) |
+| jaːpʂʰɨȷ̊ | Taraqtaş | <audio controls src="audio/S_taraqtas_yApiSiy.mp3"></audio> | yapışıy |
+
+### Ejective-like sibilants
+There is another sibilant that is very characteristic for Sudaq phonetics, that e preiminarily classified as an ejective fricative \[sʼ\], but represents some phonetic effects of the retroflex fricative \[ʂ\], and still needs to be properly classified. There is also a voiced correlative of \[sʼ\] tending to affricative, which we code as \[zʼ\]. It is a common allophone of the \[z\], and sometimes transforms to the distinguishable affricate. It is natural for the \[zʼ\] to partially loose voicing.
+
+| transcription | source | recording | orthographic form |
+| :------------ | ------ | --------- | ----------------- |
+| sʼoŋ | Taraqtaş | <audio controls src="audio/sI_taraqtas_sson.mp3"></audio> | soñ |
+| œʷgʊtzʼ | Taraqtaş | <audio controls src="audio/ts_oguc.mp3"></audio> | ögüz |
+| da azʼbaɹa | Taraqtaş | <audio controls src="audio/ts_taraqtas_da_aZbara.mp3"></audio> | da azbara |
+| jɐːnsʼɐː | Taraqtaş | <audio controls src="audio/ts_taraqtas_yaantsaa.mp3"></audio> | yansa |
+| sʷʼœlɛsʲɪn | Taraqtaş | <audio controls src="audio/sw_taraqtas_solesin.mp3"></audio> | sölesin |
+
+
+### Fortis and consonant doubling
+The encreased strength and length of some consonants is very common in the local language spoken in Sudaq. It is usually combined with ejection, but not obviously. Besides of the very natural ejection and fortis articulation at the very first consonant of the phrasal syntagma, the fortis may occur in the middle of the word too.
+
+| transcription | source | recording | orthographic form |
+| :------------ | ------ | --------- | ----------------- |
+| sːalma waɹ | Taraqtaş | <audio controls src="audio/ss_ssalma_war.mp3"></audio> | salma var |
+| uzʼːun | Taraqtaş | <audio controls src="audio/z_taraqtas_uzzun.mp3"></audio> | uzun |
+| tːamurəndɐ | Taraqtaş | <audio controls src="audio/tt_taraqtas_ttamurinda.mp3"></audio> | tamurında |
+| uzun ɛɕːɛk ojnʲardɯqʰ | Taraqtaş | <audio controls src="audio/ss_taraqtas_uzun_essek_ounjardiqh.mp3"></audio> | uzun eşek oynardıq |
+
 
 ---
 

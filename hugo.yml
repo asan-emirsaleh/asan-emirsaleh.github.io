@@ -1,6 +1,6 @@
 baseURL: "https:/asan-emirsaleh.github.io" 
 title: Asan Emirsale personal page
-theme: PaperMod
+theme: ["PaperMod", "hugo-embed-pdf-shortcode"]
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -12,20 +12,20 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
-          url: books/
-          weight: 5 
+#        - name: Books
+#          url: books/
+#          weight: 5 
         - name: Papers
           url: papers/
           weight: 2
-        - name: Courses
-          url: courses/
-          weight: 3
+#        - name: Courses
+#          url: courses/
+#          weight: 3
         - name: Projects
           url: projects/
           weight: 4 
         - name: Blog
-          url: 
+          url: blog/
           weight: 6
         - name: Data
           url: data/
@@ -64,10 +64,10 @@ params:
           buttons:
             - name: Papers
               url: papers/
-            - name: Books
-              url: books/
-            - name: Courses
-              url: courses/
+#            - name: Books
+#              url: books/
+#            - name: Courses
+#              url: courses/
             - name: Talks
               url: talks/
             - name: Tags
