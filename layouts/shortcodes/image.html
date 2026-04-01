@@ -1,0 +1,29 @@
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" | default "" -}}
+{{- $class := .Get "class" | default "" -}}
+{{- $gallery := .Get "gallery" | default "" -}}
+{{- $width := .Get "width" | default "800" -}}
+
+{{- $imgSrc := $src -}}
+{{- $imgWidth := "" -}}
+{{- $imgHeight := "" -}}
+
+{{- with .Page.Resources.GetMatch $src -}}
+  {{- $resized := .Resize (printf "%sx webp" $width) -}}
+  {{- $imgSrc = $resized.RelPermalink -}}
+  {{- $imgWidth = $resized.Width -}}
+  {{- $imgHeight = $resized.Height -}}
+{{- else -}}
+  {{- warnf "Image %q not found in page bundle %q" $src .Page.File.Path -}}
+{{- end -}}
+
+<div class="gallery-item">
+  <a href="{{ $src }}" class="glightbox" {{ with $gallery }}data-gallery="{{ . }}"{{ end }} data-description="{{ $alt }}">
+    <img src="{{ $imgSrc }}" 
+         {{ with $imgWidth }}width="{{ . }}"{{ end }}
+         {{ with $imgHeight }}height="{{ . }}"{{ end }}
+         alt="{{ $alt }}" 
+         class="{{ $class }}" 
+         loading="lazy" />
+  </a>
+</div>

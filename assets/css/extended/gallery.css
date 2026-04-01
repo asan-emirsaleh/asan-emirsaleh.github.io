@@ -1,0 +1,50 @@
+/* Gallery Masonry Layout - Respects Aspect Ratios */
+.content-gallery,
+.gallery {
+  column-count: 3;
+  column-gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+@media (max-width: 1024px) {
+  .content-gallery,
+  .gallery {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 640px) {
+  .content-gallery,
+  .gallery {
+    column-count: 1;
+  }
+}
+
+.content-gallery .gallery-item,
+.gallery .gallery-item {
+  break-inside: avoid;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.content-gallery .gallery-item img,
+.gallery .gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+  cursor: zoom-in;
+  transition: transform 0.2s ease;
+}
+
+.content-gallery .gallery-item img:hover,
+.gallery .gallery-item img:hover {
+  transform: scale(1.03);
+}
+
+/* GLightbox customization */
+.glightbox-desc {
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+}

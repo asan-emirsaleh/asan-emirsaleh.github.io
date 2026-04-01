@@ -1,8 +1,10 @@
-baseURL: "https:/asan-emirsaleh.github.io" 
+baseURL: "https:/asan-emirsaleh.github.io"
+languageCode: "en-uk" 
 title: Asan Emirsale personal page
 theme: ["PaperMod", "hugo-embed-pdf-shortcode"]
 
 enableInlineShortcodes: true
+defaultContentLanguageInSubdir: false 
 enableRobotsTXT: true
 pagination:
   pagerSize: 20
@@ -38,6 +40,7 @@ params:
     defaultTheme: light
     hideFooter: false
     disableThemeToggle: true
+    ShowLanguageSelector: true
     ShowShareButtons: false
     ShowReadingTime: false
     disableSpecial1stPost: true
@@ -75,7 +78,7 @@ params:
             - name: Archive
               url: archive/
             - name: Blog
-              url: 
+              url: blog/
 
     socialIcons:
 #        - name: CV
@@ -127,3 +130,37 @@ markup:
 #  imports:
 #  - path: reveal-hugo
 
+anguages:
+  en:
+    languageName: English
+    weight: 1
+    params:
+
+
+  ru:
+    languageName: Russian
+    weight: 2
+    title: 
+    params:
+      description: "На данном ресурсе находятся исследовательские статьи, размышления, собственные учебные материалы, наборы данных, сведения о творческом и трудовом пути и контактная информация Асана Эмирсалиева."
+    # Menus for Russian
+    menu:
+      main:
+  #        - name: Books
+  #          url: books/
+  #          weight: 5 
+  #        - name: Статьи
+  #          url: papers/
+  #          weight: 2
+  #        - name: Courses
+  #          url: courses/
+  #          weight: 3
+  #        - name: Проекты
+  #          url: projects/
+  #          weight: 4 
+  #        - name: Блог
+  #          url: blog/
+  #          weight: 6
+  #        - name: Наборы данных
+  #          url: data/
+  #          weight: 3
