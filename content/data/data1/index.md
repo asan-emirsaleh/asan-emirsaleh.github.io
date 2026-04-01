@@ -163,6 +163,7 @@ In local language of Sudaq region, the glottal fricatives, both voiced and voice
 | taja ɦa bu aʂandɯ | Taraqtaş[^5] | <audio controls src="audio/ha_taraqtas_mamutov.mp3"></audio> | taya ha bu aşandı |
 | ħayat | Taraqtaş[^14] | <audio controls src="audio/h_taraqtas_hayat.mp3"></audio> | taya ha bu aşandı |
 
+
 ---
 
 ## Source of data
@@ -185,4 +186,4 @@ Publicly available recordings were sourced from YouTube, including material publ
 [^11]: Şalver Seydahmet (Suleymanov), Büyük Taraqtaş. The audio was recorded by Asan Emirsale in Qarasuvbazar town in 2010. Unpublished.
 [^12]: Şalverlerden Balığıñ Osman (Emirsaliyev), Büyük Taraqtaş. The audio was recorded by Asan Emirsale in Qarasuvbazar town in 2026. Unpublished.
 [^13]: Şalverlerden Patlaqqulaq Ayşe, Büyük Taraqtaş. The audio was recorded by Girey Bairov and Asan Emirsale in the Taraqtaş settlement in 2009. The recording is deposited at https://youtu.be/VqffTEMirH4
-[^14] Alme Ablâlim, Küçük Taraqtaş. The audio was recorded by Asan Emirsale in the Yeñi Male district of the Sudaq town in 2008. Unpublished.
+[^14]: Alme Ablâlim, Küçük Taraqtaş. The audio was recorded by Asan Emirsale in the Yeñi Male district of the Sudaq town in 2008. Unpublished.
