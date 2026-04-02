@@ -161,7 +161,7 @@ In local language of Sudaq region, the glottal fricatives, both voiced and voice
 | ɦɛr bɪr | Taraqtaş[^5] | <audio controls src="audio/h_taraqtas_mamutov.mp3"></audio> | her bir |
 | sʰaħan | Taraqtaş[^2] | <audio controls src="audio/h_taraqtas_sahan.mp3"></audio> | sahan |
 | taja ɦa bu aʂandɯ | Taraqtaş[^5] | <audio controls src="audio/ha_taraqtas_mamutov.mp3"></audio> | taya ha bu aşandı |
-| ħayat | Taraqtaş[^14] | <audio controls src="audio/h_taraqtas_hayat.mp3"></audio> | taya ha bu aşandı |
+| ħayat | Taraqtaş[^14] | <audio controls src="audio/h_taraqtas_hayat.mp3"></audio> | hayat |
 
 
 ---
