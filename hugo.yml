@@ -35,7 +35,7 @@ menu:
 params:
     description: "This website hosts Asan Emirsale's research papers, thoughts, course materials, data, curriculum vitae, and contact information."
     author: Asan Emirsale
-    # googleAnalyticsID: "G-XXXXX"
+    googleAnalyticsID: "G-55X0KQZKMQ"
     DateFormat: "January 2006"
     defaultTheme: light
     hideFooter: false
