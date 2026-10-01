@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-label="Схема ADMIXTURE: одни и те же образцы при K равно 2 и 3">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<rect x="35" y="18" width="1130" height="405" rx="12" fill="#fbfaf9" stroke="#e3e0dd"/>
+<text x="70" y="57" fill="#24262a" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="24" font-weight="680">Те же семь условных образцов</text>
+<text x="76" y="162" fill="#24262a" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="28" font-weight="700">K = 2</text>
+<rect x="230" y="100.0" width="42" height="104.0" fill="#963e3a"/>
+<rect x="230" y="204.0" width="42" height="0.0" fill="#4a7291"/>
+<rect x="230" y="100" width="42" height="104" fill="none" stroke="#555" stroke-width="1"/>
+<rect x="355" y="100.0" width="42" height="87.4" fill="#963e3a"/>
+<rect x="355" y="187.4" width="42" height="16.6" fill="#4a7291"/>
+<rect x="355" y="100" width="42" height="104" fill="none" stroke="#555" stroke-width="1"/>
+<rect x="480" y="100.0" width="42" height="71.8" fill="#963e3a"/>
+<rect x="480" y="171.8" width="42" height="32.2" fill="#4a7291"/>
+<rect x="480" y="100" width="42" height="104" fill="none" stroke="#555" stroke-width="1"/>
+<rect x="605" y="100.0" width="42" height="54.1" fill="#963e3a"/>
+<rect x="605" y="154.1" width="42" height="49.9" fill="#4a7291"/>
+<rect x="605" y="100" width="42" height="104" fill="none" stroke="#555" stroke-width="1"/>
+<rect x="730" y="100.0" width="42" height="38.5" fill="#963e3a"/>
+<rect x="730" y="138.5" width="42" height="65.5" fill="#4a7291"/>
+<rect x="730" y="100" width="42" height="104" fill="none" stroke="#555" stroke-width="1"/>
+<rect x="855" y="100.0" width="42" height="18.7" fill="#963e3a"/>
+<rect x="855" y="118.7" width="42" height="85.3" fill="#4a7291"/>
+<rect x="855" y="100" width="42" height="104" fill="none" stroke="#555" stroke-width="1"/>
+<rect x="980" y="100.0" width="42" height="4.2" fill="#963e3a"/>
+<rect x="980" y="104.2" width="42" height="99.8" fill="#4a7291"/>
+<rect x="980" y="100" width="42" height="104" fill="none" stroke="#555" stroke-width="1"/>
+<text x="76" y="312" fill="#24262a" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="28" font-weight="700">K = 3</text>
+<rect x="230" y="250.0" width="42" height="74.9" fill="#963e3a"/>
+<rect x="230" y="324.9" width="42" height="29.1" fill="#4a7291"/>
+<rect x="230" y="354.0" width="42" height="0.0" fill="#a9823a"/>
+<rect x="230" y="250" width="42" height="104" fill="none" stroke="#555" stroke-width="1"/>
+<text x="251" y="381" fill="#5d6268" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="18" font-weight="450" text-anchor="middle">1</text>
+<rect x="355" y="250.0" width="42" height="62.4" fill="#963e3a"/>
+<rect x="355" y="312.4" width="42" height="29.1" fill="#4a7291"/>
+<rect x="355" y="341.5" width="42" height="12.5" fill="#a9823a"/>
+<rect x="355" y="250" width="42" height="104" fill="none" stroke="#555" stroke-width="1"/>
+<text x="376" y="381" fill="#5d6268" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="18" font-weight="450" text-anchor="middle">2</text>
+<rect x="480" y="250.0" width="42" height="49.9" fill="#963e3a"/>
+<rect x="480" y="299.9" width="42" height="29.1" fill="#4a7291"/>
+<rect x="480" y="329.0" width="42" height="25.0" fill="#a9823a"/>
+<rect x="480" y="250" width="42" height="104" fill="none" stroke="#555" stroke-width="1"/>
+<text x="501" y="381" fill="#5d6268" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="18" font-weight="450" text-anchor="middle">3</text>
+<rect x="605" y="250.0" width="42" height="37.4" fill="#963e3a"/>
+<rect x="605" y="287.4" width="42" height="30.2" fill="#4a7291"/>
+<rect x="605" y="317.6" width="42" height="36.4" fill="#a9823a"/>
+<rect x="605" y="250" width="42" height="104" fill="none" stroke="#555" stroke-width="1"/>
+<text x="626" y="381" fill="#5d6268" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="18" font-weight="450" text-anchor="middle">4</text>
+<rect x="730" y="250.0" width="42" height="28.1" fill="#963e3a"/>
+<rect x="730" y="278.1" width="42" height="28.1" fill="#4a7291"/>
+<rect x="730" y="306.2" width="42" height="47.8" fill="#a9823a"/>
+<rect x="730" y="250" width="42" height="104" fill="none" stroke="#555" stroke-width="1"/>
+<text x="751" y="381" fill="#5d6268" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="18" font-weight="450" text-anchor="middle">5</text>
+<rect x="855" y="250.0" width="42" height="12.5" fill="#963e3a"/>
+<rect x="855" y="262.5" width="42" height="25.0" fill="#4a7291"/>
+<rect x="855" y="287.4" width="42" height="66.6" fill="#a9823a"/>
+<rect x="855" y="250" width="42" height="104" fill="none" stroke="#555" stroke-width="1"/>
+<text x="876" y="381" fill="#5d6268" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="18" font-weight="450" text-anchor="middle">6</text>
+<rect x="980" y="250.0" width="42" height="2.1" fill="#963e3a"/>
+<rect x="980" y="252.1" width="42" height="18.7" fill="#4a7291"/>
+<rect x="980" y="270.8" width="42" height="83.2" fill="#a9823a"/>
+<rect x="980" y="250" width="42" height="104" fill="none" stroke="#555" stroke-width="1"/>
+<text x="1001" y="381" fill="#5d6268" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="18" font-weight="450" text-anchor="middle">7</text>
+<text x="78" y="396" fill="#5d6268" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="18" font-weight="430">Числа 1–7 обозначают образцы; цвет – компонент модели</text>
+</svg>

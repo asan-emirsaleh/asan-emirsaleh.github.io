@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ .Description }}">
+  <title>{{ .Title }} · {{ .Site.Title }}</title>
+  <link rel="stylesheet" href="./vendor/reveal/reveal.css">
+  <link rel="stylesheet" href="./deck.css">
+</head>
+<body>
+  <main class="reveal" aria-label="Презентация: {{ .Title }}">
+    <div class="slides">{{ .Content }}</div>
+  </main>
+  <script src="./vendor/reveal/reveal.js"></script>
+  <script>
+    Reveal.initialize({
+      hash: true,
+      controls: true,
+      progress: true,
+      slideNumber: 'c/t',
+      width: 1280,
+      height: 720,
+      margin: 0.025,
+      center: false,
+      transition: 'fade',
+      backgroundTransition: 'none',
+      viewDistance: 35
+    });
+
+    // Pause the simulation while its slide is hidden. The iframe stays loaded
+    // so returning to the slide does not reset the visitor's chosen settings.
+    Reveal.on('slidechanged', event => {
+      const widget = document.querySelector('.slide-background iframe[src*="genetic-drift.html"]');
+      if (!widget || !widget.contentWindow) return;
+      widget.contentWindow.postMessage(
+        event.currentSlide && event.currentSlide.id === 'genetic-drift' ? 'slide:start' : 'slide:stop',
+        window.location.origin
+      );
+    });
+  </script>
+</body>
+</html>
