@@ -1,0 +1,40 @@
+@font-face{font-family:"Lecture";src:url("./assets/DejaVuSans.ttf") format("truetype");font-display:swap}
+:root{color-scheme:light;--ink:#202226;--accent:#8c3432}
+*{box-sizing:border-box}html,body{margin:0;background:#fff}
+.reveal{font-family:"Noto Sans","Lecture",Arial,sans-serif;color:var(--ink);background:#fff;font-size:32px}
+.reveal .slides,.reveal .slides section{text-align:left}
+.reveal .slides>section{height:100%}
+.reveal .frame{width:100%;height:100%;padding:72px 78px 62px;position:relative;display:flex;flex-direction:column}
+.reveal .frame::before{content:"";position:absolute;top:38px;left:78px;width:64px;height:4px;background:var(--accent)}
+.reveal h1,.reveal p,.reveal li{font-family:inherit;text-transform:none;letter-spacing:normal;text-shadow:none;color:inherit}
+.reveal h1{font-size:53px;line-height:1.13;font-weight:750;letter-spacing:-.025em;margin:0 0 44px;flex-shrink:0}
+.reveal p{font-size:34px;line-height:1.48;margin:0 0 30px}
+.reveal strong{font-weight:750}
+.reveal .body{width:100%;min-height:0;flex:1;display:flex;flex-direction:column;justify-content:center}
+.reveal .body>:last-child{margin-bottom:0}
+.reveal ul,.reveal ol{font-size:32px;line-height:1.45;margin:0 0 28px;padding-left:1.25em;display:block}
+.reveal li{margin:0 0 17px;padding-left:8px}.reveal li:last-child{margin-bottom:0}
+.reveal code{font-size:29px;color:var(--accent)}
+.reveal .slide-number{top:20px;right:24px;bottom:auto;left:auto;padding:4px 8px;color:#444;background:#fff;font-family:inherit;font-size:16px}
+.reveal .controls{color:#555}.reveal .progress{color:var(--accent);height:4px}
+.reveal .layout-cover .frame{justify-content:center}.reveal .layout-cover .body{flex:none}
+.reveal .layout-cover h1{font-size:80px;line-height:1.1;max-width:1030px;margin-bottom:50px}
+.reveal .layout-cover p{font-size:31px;margin-bottom:22px}.reveal .layout-cover p:last-child{color:#666;font-size:27px}
+.reveal .layout-question p{font-size:42px;line-height:1.42;margin-bottom:44px;max-width:1040px}
+.reveal .layout-thesis p:first-child{font-size:43px;line-height:1.35;margin-bottom:36px}
+.reveal .layout-story h1{font-size:49px;margin-bottom:24px}.reveal .layout-story p{font-size:31px;margin-bottom:23px}
+.reveal .layout-story ol{font-size:29px;line-height:1.4;margin-bottom:0}.reveal .layout-story li{margin-bottom:17px}
+.reveal .layout-list .body{justify-content:center}.reveal .layout-list p{font-size:29px}
+.reveal .layout-closing p{font-size:42px;line-height:1.45;margin-bottom:44px}
+.reveal figure{margin:0;min-height:0;display:flex;align-items:center;justify-content:center}
+.reveal figure img{display:block;max-width:100%;max-height:100%;border:0;box-shadow:none;margin:0;object-fit:contain;cursor:zoom-in}
+.reveal .layout-image-tall .body{display:grid;grid-template-columns:38% 1fr;gap:60px;align-items:center}
+.reveal .layout-image-tall figure{height:480px}.reveal .layout-image-tall figure img{height:100%;width:auto}
+.reveal .layout-image-tall .image-text p{font-size:37px;line-height:1.5}
+.reveal .layout-image-graph .body{display:grid;grid-template-columns:53% 1fr;gap:42px;align-items:center}
+.reveal .layout-image-graph figure{height:475px}.reveal .layout-image-graph figure img{width:100%;height:100%}
+.reveal .layout-image-graph .image-text p{font-size:36px;line-height:1.5}
+dialog{border:0;padding:25px;width:96vw;max-width:96vw;max-height:96vh;background:#fff}dialog::backdrop{background:rgba(0,0,0,.7)}
+dialog button{position:absolute;right:12px;top:5px;border:0;background:transparent;font-size:32px;cursor:pointer}
+#figure-zoom img{display:block;width:100%;height:85vh;object-fit:contain}
+@media print{.reveal .controls,.reveal .slide-number{display:none}dialog{display:none!important}}
