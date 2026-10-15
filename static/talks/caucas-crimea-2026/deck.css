@@ -1,0 +1,125 @@
+@font-face { font-family: "Lecture IPA"; src: url("./assets/DejaVuSans.ttf") format("truetype"); font-display: swap; }
+:root { color-scheme:light; --ink:#202226; --accent:#8c3432; }
+* { box-sizing:border-box; }
+html,body { margin:0; background:#fff; }
+.reveal { font-family:"Noto Sans","Lecture IPA","DejaVu Sans",Arial,sans-serif; color:var(--ink); background:#fff; font-size:28px; }
+.reveal .slides,.reveal .slides section { text-align:left; }
+.reveal .slides > section { height:100%; }
+.reveal .slides .frame { width:100%; height:100%; padding:60px 78px 55px; position:relative; display:flex; flex-direction:column; }
+.reveal .slides .frame::before { content:""; position:absolute; top:38px; left:78px; width:64px; height:4px; background:var(--accent); }
+.reveal h1,.reveal h2,.reveal p,.reveal li { color:inherit; font-family:inherit; text-transform:none; letter-spacing:normal; text-shadow:none; }
+.reveal h1 { font-size:51px; line-height:1.14; font-weight:760; letter-spacing:-.035em; margin:0 0 27px; flex-shrink:0; }
+.reveal p { font-size:28px; line-height:1.44; margin:0 0 22px; }
+.reveal a { color:#7d2625; text-decoration:underline; }
+.reveal strong { font-weight:760; }
+.eyebrow { color:#7d2625; font-size:16px; font-weight:740; letter-spacing:.08em; margin:0 0 17px; }
+.body { width:100%; min-height:0; flex:1; display:flex; flex-direction:column; }
+.body > :last-child { margin-bottom:0; }
+.reveal figure { margin:0; flex:1; min-height:0; display:flex; flex-direction:column; align-items:center; justify-content:center; }
+.reveal figure img { display:block; max-width:100%; max-height:100%; border:0; box-shadow:none; margin:0; object-fit:contain; min-height:0; cursor:zoom-in; }
+.reveal figcaption,.reveal .caption { font-size:17px; color:#626262; line-height:1.35; margin:13px 0 0; flex-shrink:0; }
+.reveal table { width:100%; border-collapse:collapse; margin:0; font-size:28px; line-height:1.32; }
+.reveal table th { color:#7d2625; font-weight:650; border-bottom:2px solid #a9a9a9; text-align:left; }
+.reveal table th,.reveal table td { padding:12px 14px; vertical-align:middle; }
+.reveal table td { border-bottom:1px solid #d9d9d9; }
+.reveal table th:first-child,.reveal table td:first-child { padding-left:0; }
+.reveal table td:last-child,.reveal table th:last-child { padding-right:0; }
+.reveal .slide-number { top:20px; right:24px; bottom:auto; left:auto; padding:4px 8px; border:1px solid #d3d3d3; border-radius:3px; color:#333; background:rgba(255,255,255,.92); font-family:inherit; font-size:16px; }
+.reveal .controls { color:#555; }
+.reveal .progress { color:var(--accent); height:4px; }
+.reveal .slides .back-link { position:absolute; left:78px; bottom:35px; font-size:16px; text-decoration:none; color:#575757; }
+.layout-cover .frame { justify-content:center; }
+.layout-cover .body { flex:none; }
+.layout-cover h1 { max-width:1080px; font-size:75px; line-height:1.12; margin:0 0 48px; }
+.reveal .layout-cover .author { font-size:29px; font-weight:650; margin-bottom:10px; }
+.reveal .layout-cover .cover-subtitle { font-size:25px; color:#555; }
+.layout-quote blockquote,.layout-large-quote blockquote { width:100%; margin:14px 0 0; padding:0 0 0 26px; border-left:4px solid var(--accent); background:transparent; box-shadow:none; font-style:normal; }
+.reveal .layout-quote blockquote p { font-size:33px; line-height:1.47; }
+.layout-large-quote .body { justify-content:center; }
+.reveal .layout-large-quote blockquote p { font-size:43px; line-height:1.47; }
+.layout-archaeology figure { flex:1; }
+.layout-archaeology figure img { height:100%; max-height:475px; }
+.layout-archaeology .body > p { max-width:100%; margin-bottom:14px; }
+.layout-archaeology:has(.body > p) .body { display:grid; grid-template-columns:38% 60%; gap:2%; align-items:center; }
+.layout-archaeology:has(.body > p) figure { height:100%; }
+.reveal .layout-clans .body { justify-content:center; gap:24px; }
+.reveal .layout-clans p { font-size:33px; border-bottom:1px solid #ccc; padding-bottom:22px; margin:0; }
+.reveal .layout-names p { font-size:30px; }
+.reveal .layout-names p:nth-of-type(2) { font-size:35px; line-height:1.48; color:var(--accent); margin:16px 0 30px; }
+.reveal .layout-names p:last-child { font-size:18px; margin-top:auto; }
+.layout-name-table h1 { font-size:45px; margin-bottom:17px; }
+.reveal .layout-name-table table { font-size:25px; }
+.reveal .layout-name-table th,.reveal .layout-name-table td { padding:11px 10px; }
+.layout-name-table td:first-child { font-weight:650; }
+.layout-map .frame { padding:55px 40px 35px; }
+.layout-map h1 { font-size:37px; margin-bottom:12px; }
+.layout-map figure img { height:100%; max-height:555px; }
+.layout-map figcaption { font-size:15px; margin-top:7px; }
+.layout-audio h1 { font-size:45px; }
+.reveal .audio-table { margin-top:8px; }
+.reveal .audio-table th { font-size:21px; }
+.reveal .audio-table td { padding:19px 14px; }
+.reveal .audio-table td:nth-child(1) { width:30%; font-size:27px; }
+.reveal .audio-table td:nth-child(2) { width:44%; }
+.reveal .audio-table td:nth-child(3) { width:26%; }
+.ipa { font-family:"Lecture IPA","DejaVu Sans","Noto Sans",sans-serif; font-size:31px; line-height:1.4; }
+.reveal audio { display:block; width:270px; height:44px; }
+.reveal .layout-audio .body > p { font-size:26px; margin-bottom:8px; }
+.layout-dataset .dataset-overview { width:760px; height:370px; overflow:hidden; align-self:center; flex-shrink:0; }
+.layout-dataset .dataset-overview img { width:100%; height:auto; margin:0; }
+.reveal .layout-dataset .dataset-link { margin:24px 0 14px; }
+.dataset-link { font-size:25px; }
+.layout-feature-table h1 { font-size:46px; margin-bottom:15px; }
+.reveal .layout-feature-table table { font-size:25px; }
+.reveal .layout-feature-table th,.reveal .layout-feature-table td { padding:9px 15px; }
+.layout-feature-table td:first-child { font-family:"Lecture IPA","DejaVu Sans",sans-serif; font-weight:650; }
+.layout-feature-table td:not(:first-child) { text-align:center; }
+.layout-vowels .vowel-comparison { display:grid; grid-template-columns:43% 55%; gap:2%; height:100%; align-items:center; }
+.layout-vowels figure { height:100%; }
+.reveal .layout-vowels figure img { width:100%; }
+.reveal .layout-vowels table { font-size:25px; }
+.reveal .legend { font-size:23px; line-height:1.7; margin-top:30px; }
+.sudaq-color { color:#b51c28; }
+.standard-color { color:#1659ad; }
+.layout-forms .body { justify-content:center; }
+.reveal .layout-forms table { font-size:36px; }
+.reveal .layout-forms th { font-size:24px; }
+.reveal .layout-forms td { padding-top:30px; padding-bottom:30px; }
+.reveal .layout-word-table table { font-size:32px; }
+.reveal .layout-word-table th { font-size:23px; }
+.reveal .layout-word-table td { padding-top:18px; padding-bottom:18px; }
+.reveal .layout-pronouns table { font-size:25px; }
+.reveal .layout-pronouns td { padding-top:12px; padding-bottom:12px; }
+.reveal .layout-closing p { font-size:36px; }
+.reveal .layout-closing p:last-child { margin-top:auto; font-size:25px; }
+dialog { border:0; border-radius:4px; padding:32px 42px; max-width:900px; width:90vw; max-height:85vh; overflow:auto; color:#202226; background:white; font-family:"Lecture IPA","DejaVu Sans",Arial,sans-serif; font-size:19px; line-height:1.6; }
+dialog::backdrop { background:rgba(0,0,0,.65); }
+dialog button { position:absolute; right:12px; top:5px; border:0; background:transparent; font-size:32px; cursor:pointer; }
+dialog h2 { font-size:25px; margin:0 0 20px; }
+dialog a { color:#7d2625; }
+#figure-zoom { padding:25px; width:96vw; max-width:96vw; max-height:96vh; }
+#figure-zoom img { display:block; width:100%; height:85vh; object-fit:contain; }
+@media print { .reveal .controls,.reveal .slide-number,.reveal .back-link { display:none; } dialog { display:none!important; } .reveal audio { visibility:hidden; } }
+
+/* Author's revisions: paired originals and one slide for all ejective samples. */
+.reveal .layout-quote-pair .body > p { font-size:25px; margin-bottom:14px; }
+.reveal .layout-quote-pair blockquote { width:100%; margin:0 0 24px; padding:0 0 0 24px; border-left:4px solid var(--accent); background:transparent; box-shadow:none; font-style:normal; }
+.reveal .layout-quote-pair blockquote p { font-size:29px; line-height:1.4; margin:0; }
+.paired-figures { display:grid; grid-template-columns:1fr 1fr; gap:28px; flex:1; min-height:0; }
+.reveal .paired-figures figure { height:100%; min-height:0; }
+.reveal .paired-figures figure img { width:100%; height:100%; object-fit:contain; }
+.reveal .layout-archaeology-pair .body > p { font-size:26px; margin-bottom:14px; }
+.layout-dataset-pair h1 { font-size:45px; margin-bottom:20px; }
+.reveal .layout-dataset-pair .dataset-link { margin:12px 0 0; font-size:22px; }
+.layout-audio-five h1 { font-size:45px; margin-bottom:20px; }
+.reveal .layout-audio-five .audio-table { margin-top:0; table-layout:fixed; }
+.reveal .layout-audio-five .audio-table th { font-size:20px; padding:8px 12px; }
+.reveal .layout-audio-five .audio-table th:nth-child(1) { width:30%; }
+.reveal .layout-audio-five .audio-table th:nth-child(2) { width:44%; }
+.reveal .layout-audio-five .audio-table th:nth-child(3) { width:26%; }
+.reveal .layout-audio-five .audio-table td { padding:12px; }
+.reveal .layout-audio-five .audio-table td:first-child { padding-left:0; font-size:25px; }
+.reveal .layout-audio-five .ipa { font-size:27px; }
+
+/* Crimea–Caucasus lecture */
+.reveal li{font-size:29px;line-height:1.45;margin-bottom:16px}.reveal ul{margin:0 0 15px 28px}.reveal .layout-cover h1{font-size:66px}.reveal .layout-cover p{font-size:36px;color:#8c3432}.reveal .layout-words .body{justify-content:center}.reveal .layout-words p{font-size:70px;line-height:1.3;margin:20px 0}.translation{display:block;font-size:17px;color:#555;line-height:1.25;margin-top:5px}.reveal .layout-audio-five td:first-child{font-size:22px}.reveal .layout-audio-five .ipa{font-size:25px}.reveal .layout-audio-five .audio-table td{padding-top:9px;padding-bottom:9px}.reveal .layout-audio-five h1{font-size:41px}.reveal .layout-text table{font-size:25px}.reveal .layout-text table th,.reveal .layout-text table td{padding:11px 10px}

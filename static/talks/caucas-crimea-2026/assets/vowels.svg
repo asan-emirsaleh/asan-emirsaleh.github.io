@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="510" viewBox="0 0 620 510" role="img" aria-labelledby="title desc">
+<title id="title">Sozuq sesler: Sudaqça hem edebiy qırımtatarca</title>
+<desc id="desc">Editable schematic IPA vowel space. Red: ə, ɐ, ɑː. Blue: ɯ, a. Only the vowels from the author's comparison are highlighted; positions are schematic.</desc>
+<rect width="620" height="510" fill="white"/>
+<g font-family="DejaVu Sans, sans-serif" font-size="19" fill="#626262">
+<text x="132" y="30" text-anchor="middle">Ög</text><text x="325" y="30" text-anchor="middle">Orta</text><text x="520" y="30" text-anchor="middle">Art</text>
+<text x="18" y="93">Tar</text><text x="18" y="448">Keñ</text>
+</g>
+<g fill="none" stroke="#8d9399" stroke-width="2">
+<path d="M130 82 H530 V435 H310 Z"/>
+<path d="M190 200 H530 M250 318 H530 M330 82 L430 435" stroke="#c7c9cc"/>
+</g>
+<g font-family="DejaVu Sans, sans-serif" font-size="34" text-anchor="middle" fill="#9ba0a5">
+<text x="130" y="89">i</text><text x="184" y="89">y</text><text x="581" y="89">u</text>
+<text x="190" y="206">e</text><text x="242" y="206">ø</text><text x="478" y="206">ɤ</text><text x="581" y="206">o</text>
+<text x="250" y="325">ɛ</text><text x="302" y="325">œ</text><text x="479" y="325">ʌ</text><text x="581" y="325">ɔ</text>
+</g>
+<g font-family="DejaVu Sans, sans-serif" font-size="48" font-weight="bold" text-anchor="middle">
+<text x="518" y="90" fill="#1659ad">ɯ</text>
+<text x="309" y="450" fill="#1659ad">a</text>
+<text x="391" y="269" fill="#b51c28">ə</text>
+<text x="409" y="384" fill="#b51c28">ɐ</text>
+<text x="526" y="450" fill="#b51c28">ɑː</text>
+</g>
+<text x="340" y="493" font-family="DejaVu Sans, sans-serif" font-size="17" fill="#626262" text-anchor="middle">Artikulyatsiya sxeması</text>
+</svg>
